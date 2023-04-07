@@ -1,0 +1,38 @@
+{
+  "name": "@dfrnt/gatsby-source-graphql-dfrnt",
+  "version": "1.0.0",
+  "description": "A plugin to plugin sources nodes from an external GraphQL endpoint query",
+  "main": "index.js",
+  "homepage": "https://github.com/dfrnt-com/gatsby-source-graphql-dfrnt#readme",
+  "bugs": {
+    "url": "https://github.com/dfrnt-com/gatsby-source-graphql-dfrnt/issues"
+  },
+  "scripts": {
+    "build": "npx tsc -b",
+    "watch": "npx tsc -w",
+    "publish": "npx npm run build"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-source-plugin",
+    "graphql",
+    "dfrnt",
+    "remote"
+  ],
+  "author": "Philippe Höij <philippe.hoij@dfrnt.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gatsby-source-filesystem": "^5.8.0",
+    "graphql-request": "^5.2.0"
+  },
+  "peerDependencies": {
+    "gatsby": "^5.0.0-next"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.3"
+  }
+}

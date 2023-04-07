@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "lib": ["dom", "ESNext"],
+    "module": "Node16",
+    "sourceMap": true,
+    "jsx": "react",
+    "noUnusedLocals": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "declaration": true,
+    "declarationMap": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "typeRoots": ["./node_modules/@types"],
+    "types": ["node"],
+    "esModuleInterop": true,
+    "noEmit": false,
+    "noEmitOnError": true,
+    // outDir will put the compiled javascript files in our root directory
+    // just as we were doing before with our babel compilation
+    "outDir": ".",
+    "skipLibCheck": true,
+    "moduleResolution": "Node16"
+  },
+  "include": ["./src/**/*", "./src/*"],
+  "exclude": ["./node_modules/*"]
+}
